@@ -1,0 +1,56 @@
+# ------------------------------
+
+# OTCHŁAŃ PLIK KONFIGURACYJNY
+
+# AUTOR PLUGINU: xStrixU
+
+# FORMATOWANIE WIADOMOŚCI:
+# "czy ma się wyświetlać prefix(true/false);pełna wiadomość;słowa;które;mają;być;wyróżnione"
+
+# SLOTY SKRZYNEK:
+# SMALL: 1 - 27
+# BIG: 1 - 54
+
+# ------------------------------
+
+# CO ILE CZASU MA SIĘ OTWIERAĆ OTCHŁAŃ (sekundy)
+countdown-time: 180
+
+# PO JAKIM CZASIE OD OTWARCIA MA SIĘ ZAMKNĄĆ OTCHŁAŃ (sekundy)
+stop-time: 60
+
+# WIELKOŚĆ OTCHŁANI, DO WYBORU: small, big
+otchlan-size: big
+
+otchlan-title: "false;&l&6OTCHLAN &r&8(&6{PAGE}&8/&6{LAST_PAGE}&8)"
+
+# KONFIGURACJA ITEMOW
+# id:damage:ilosc
+
+previous-page-item: "35:14:1"
+previous-page-item-name: "&r&l&cPoprzednia strona"
+previous-page-item-slot: 53
+
+next-page-item: "35:5:1"
+next-page-item-name: "&r&l&aNastepna strona"
+next-page-item-slot: 54
+
+# KONFIGURACJA WIADOMOŚCI:
+
+message-prefix: "&8(&6Otchlan&8)"
+
+message-color: "&7"
+
+message-mark-words-color: "&6"
+
+message-otchlan-countdown: "true;Otchlan zostanie otwarta za {COUNTDOWN_TIME} sekund;{COUNTDOWN_TIME}"
+
+message-otchlan-start: "true;Otchlan zostala otwarta! Uzyj polecenia /otchlan;/otchlan"
+
+message-otchlan-stop: "true;Otchlan zostala zamknieta!"
+
+message-otchlan-not-started: "true;Otchlan nie zostala otwarta!"
+
+
+# NIE ZMIENIAJ TEGO!!!
+config-version: 1
